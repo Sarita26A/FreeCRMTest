@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Free CRM Test Cases Suite">
+    <listeners>
+        <listener class-name="com.crm.qa.util.WebDriverEvent"></listener>
+    </listeners>
+    <test name = "Free CRM test cases">
+        <classes>
+            <class name = "com.crm.qa.testCases.ContactPageTest"></class>
+            <class name= "com.crm.qa.testCases.HomePageTest"></class>
+            <class name="com.crm.qa.testCases.LoginTest"></class>
+
+        </classes>
+    </test>
+</suite>
